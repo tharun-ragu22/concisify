@@ -8,7 +8,7 @@ from gensim.summarization import keywords
 
 # nltk
 import nltk
-# nltk.download('punkt')
+#nltk.download('punkt')
 
 import random
 
@@ -58,7 +58,7 @@ def index():
 
         # if word in sentence == keyword then replace with ___________
         new_note = []
-        for word in my_note:
+        for notes in my_note:
             if notes == my_keyword:
                 new_note.append('______')
             else:
@@ -76,4 +76,3 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
-    
