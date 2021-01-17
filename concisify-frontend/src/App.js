@@ -27,7 +27,7 @@ function App() {
         {my_notes}
       </div> */}
       <Form />
-      <div id="footer" style={{paddingTop:250}}>
+      <div id="footer" style={{paddingTop:275}}>
           <p>Made By: Nicholas Jiang, Tharun Ragulan, Mehar Shienh, Terry Kuang</p>
       </div>
     </div>
