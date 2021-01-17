@@ -1,5 +1,5 @@
 # concisify
-Convert PDF to notes
+Convert PDF to notes and generates a short quiz.
 
 Instructions for using it.
 
