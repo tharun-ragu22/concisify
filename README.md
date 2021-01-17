@@ -4,7 +4,7 @@ Convert PDF to notes and generates a short quiz.
 Instructions for using it.
 
 1. Make sure you have python and node installed on your system
-2. Clone the repo
+2. Clone the repo and cd into the main directory in the terminal
 3. Do pip install freeze
 4. do pip freeze -r requirements (to run the app.py backend)
 5. Open app.py using python (do python app.py)
