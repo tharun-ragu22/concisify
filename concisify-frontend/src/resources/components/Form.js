@@ -25,7 +25,7 @@ export class Form extends Component {
 
     handleSubmit = event => {
         //alert(`${this.state.comments}`)
-        fetch("https://fb93fdaa2c61.ngrok.io/post", {
+        fetch("http://127.0.0.1:5000/post", {
             method: "POST",
             headers: {
                 "content-type": "application/json",
