@@ -27,6 +27,13 @@ code {
   justify-content: center;
 }
 
+#footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 300;
+}
+
 #notes {
   display: flex;
   flex-direction: column;
