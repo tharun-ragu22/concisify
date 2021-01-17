@@ -4,6 +4,7 @@ import navbar from './resources/images/Navbar.png'
 import clock from './resources/images/Clock_Lines.png'
 import Note from './resources/components/Note'
 import apiData from './apiData'
+import Form from './resources/components/Form'
 
 const vw = window.innerWidth - 20
 function App() {
@@ -19,12 +20,13 @@ function App() {
         <p id="header">Concisify</p>
         <img src={clock} height="101px" width="101px" style={{ paddingTop: 69, paddingLeft: 14 }} />
       </div>
-      <div id="body" style={{ paddingTop: 1, paddingBottom: 100 }}>
+      <div id="body" style={{ paddingTop: 1, paddingBottom: 40 }}>
         <p id="desc">The notes that take you hours, printed in seconds with AI!</p>
       </div>
-      <div id="notes">
+      {/* <div id="notes">
         {my_notes}
-      </div>
+      </div> */}
+      <Form />
     </div>
   );
 }
