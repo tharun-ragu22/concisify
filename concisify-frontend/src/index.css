@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
@@ -14,9 +15,10 @@ code {
 
 #container {
   display: flex;
+  flex-grow: 1;
   padding: 10px;
   flex-direction: column;
-
+  background-image: linear-gradient(to bottom right, #ffe6e6, #da9ff9);
 }
 
 #body {

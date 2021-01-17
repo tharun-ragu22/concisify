@@ -13,7 +13,7 @@ function App() {
         <p id="header">Concisify</p>
         <img src={clock} height="101px" width="101px" style={{paddingTop:69, paddingLeft:14}}/>
       </div>
-      <div id="body" style={{paddingTop: 1}}>
+      <div id="body" style={{paddingTop: 1, paddingBottom: 400}}>
         <p id="desc">The notes that take you hours, printed in seconds with AI!</p>
       </div>
       
