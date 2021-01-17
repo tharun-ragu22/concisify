@@ -15,5 +15,40 @@ code {
 #container {
   display: flex;
   padding: 10px;
+  flex-direction: column;
+
+}
+
+#body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+#header {
+display: inline;
+font-family: 'Roboto', sans-serif;
+font-size: 118px;
+line-height: 16px;
+/* or 14% */
+
+
+letter-spacing: 0.75px;
+text-transform: uppercase;
+
+}
+
+#desc {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+  text-align: center;
+  /* or 132% */
+
+  letter-spacing: 0.75px;
 
 }
