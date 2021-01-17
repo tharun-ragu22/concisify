@@ -1,0 +1,24 @@
+{
+  "name": "concisify",
+  "version": "1.0.0",
+  "description": "Convert PDF to notes and quiz",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tharun-ragu22/concisify.git"
+  },
+  "author": "Nicholas Jiang, Tharun Ragulan, Mehar Shienh, Terry Kuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tharun-ragu22/concisify/issues"
+  },
+  "homepage": "https://github.com/tharun-ragu22/concisify#readme"
+}
